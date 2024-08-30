@@ -63,8 +63,8 @@ const placeOrder = async (req, res) => {
                 payment_method: "paypal"
             },
             redirect_urls: {
-                 return_url: "http://localhost:5173/api/order/success",
-                cancel_url: "http://localhost:5173/api/order/cancel"
+                 return_url: "https://food-del-frontend-z3s5.onrender.com/api/order/success",
+                cancel_url: "https://food-del-frontend-z3s5.onrender.com/api/order/cancel"
             },
             transactions: [{
                 item_list: {
